@@ -2,38 +2,59 @@
 
 
 
-/*-----INSIDE THE WRAPPERS-----*/
-	header, nav, .row, footer {
+	/*-----INSIDE THE WRAPPERS-----*/
+	header,
+	nav,
+	.row,
+	footer {
 		max-width: 1140px;
-		margin: 0 auto; /*centers everything on the page*/
+		margin: 0 auto;
+		/*centers everything on the page*/
 	}
 
-/*-----HEADER -----*/
+	/*-----HEADER -----*/
 	header {
 		padding-top: 2em;
-		padding-bottom:1em;
+		padding-bottom: 1em;
+	}
+
+
+	/*----- BANNER -----*/
+	#banner {
+		background-image: url(../photographs/share-desktop.jpg);
+		background-position: center;
+		height: 500px;
+	}
+
+
+	/*-----NAVIGATION -----*/
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+
+	nav ul li {
+		width: auto;
+	}
+
+	nav ul li a {
+		padding: .2em 1.5em;
 	}
 
 
 
-/*-----NAVIGATION -----*/	
-nav ul li a:hover{text-decoration:underline;}
-nav ul li {width: auto;}
-nav ul li a {padding: .2em 1.5em;}
-
-	
-	
-	
-
-/*-----CONTENT -----*/
 
 
-
-	
-	
+	/*-----CONTENT -----*/
 
 
 
 
 
-} /*end of the media query */
+
+
+
+
+
+}
+
+/*end of the media query */
